@@ -2,6 +2,7 @@ package main
 
 import (
 	"pix/cmd"
+	donutfan "pix/donutFan"
 )
 
 func ReturnMeu(amount int) int {
@@ -11,4 +12,5 @@ func ReturnMeu(amount int) int {
 
 func main() {
 	ReturnMeu(10)
+	donutfan.TomaCafeComDonut()
 }

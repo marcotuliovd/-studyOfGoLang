@@ -1,0 +1,5 @@
+utiliza "package nome_do_package" para identifica a pasta, os arquivo dentro disponibiza as funções entre eles.
+para exportar entre packages do mesmo repositorio deve ter nome da função começando com letra maiuscula.
+"go mod tidy" remover todas as dependencia externas que não estão sendo usada
+"go get link_da_dependencia" baixa dependendo externa
+não importa nome do arquivo e sim o package o package main não retorna nada e nem recebe parametros;
