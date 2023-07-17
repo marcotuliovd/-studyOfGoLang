@@ -1,0 +1,18 @@
+numero inteiros: int8 int16 int32 int64 - quantidade de bits que ele suporta diferença é o tamanho.
+uint: unsygned int: só recebe inteiro sem sinal negativo, tbm tem 8 16 32 64
+alias int32 = rune exemplo (var number rune = 123)
+alias uint8 = byte
+
+float32 e float64 - utiliza sempre ponto
+
+entre aspas simples e um unico caractere o go da o numero do caractere na tabela asque - fica tipo int
+
+no go tem valor defaul string é vazio, numero é zero e erro é <nil>
+
+boleano bool - true ou false valor default é false
+
+para criar erro tem que usar pacote nativo chamado "errors"
+
+mais de um tipo de retorno coloca entre parenteses e coloca todos tipos
+
+função pode retornar duas variaveis e ao chamar tem que colocas em duas variaveis tbm, ce pode ignora a segunda variavel colocando under line
